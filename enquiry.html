@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-sale=1" />
+    <title>Enquiry - Iconic Homes</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ICONIC HOMES</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>ProjectEnquiry</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="projectType">Project Type</label>
+                <select id="projectType" name="projectType" required>
+                    <option value="">Select...</option>
+                    <option>Full Interior Design</option>
+                    <option>Room Refresh</option>
+                    <option>ShowHome Staging</option>
+                </select>
+
+                <label for="message">Brief Project Description</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+
+            <p class="note">We will respond within 2 business days.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ICONIC HOMES - All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
